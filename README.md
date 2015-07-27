@@ -22,7 +22,6 @@ Click and drag to move around, or drag off the dock to remove.
 
 
 ### Organizing applications into folders:
-Best practice is using Aliases.
 1. Right click an Application > Make Alias
 1. Drag Alias into your folder
 1. Drag folder from Finder into Dock
