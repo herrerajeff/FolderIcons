@@ -1,7 +1,7 @@
 # Folder Icons
 Folder icons for Apple Dock organization.
 
-## Categories:
+### Categories:
 * Music
 * Design
 * Web Design
@@ -10,18 +10,18 @@ Folder icons for Apple Dock organization.
 ![alt text](preview.png "Folder Icon Preview")
 
 
-## For spaces on dock enter on terminal:
+### For spaces on dock enter on terminal:
 ``` defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' ```
 
 
-## To refresh dock to reflect changes:
+### To refresh dock to reflect changes:
 
 ``` killall Dock ```
 
 Click and drag to move around, or drag off the dock to remove.
 
 
-## Organizing applications into folders:
+### Organizing applications into folders:
 Best practice is using Aliases.
 1. Right click an Application > Make Alias
 1. Drag Alias into your folder
