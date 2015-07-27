@@ -11,12 +11,12 @@ Folder icons for Apple Dock organization.
 
 
 ## For spaces on dock enter on terminal:
-''' defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' '''
+``` defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' ```
 
 
 ## To refresh dock to reflect changes:
 
-''' killall Dock '''
+``` killall Dock ```
 
 Click and drag to move around, or drag off the dock to remove.
 
@@ -30,4 +30,4 @@ Best practice is using Aliases.
 ## Changing Folder Icons:
 1. Right click folder > Get Info
 1. Drag .icns file into the folder image on top left
-1. If folder is already in Dock; run ''' killall Dock ''' in Terminal.
+1. If folder is already in Dock; run ```killall Dock``` in Terminal.
